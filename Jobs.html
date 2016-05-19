@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaJam Coffee House Jobs</title>
+<meta charset="utf-8">
+<link href="javajam.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+	 <ul>
+	 <li><a href="index.html">Home</a></li> 
+	 <li><a href="menu.html">Menu</a></li> 
+	 <li><a href="Music.html">Music</a></li> 
+	 <li><a href="jobs.html">Jobs</a></li>
+	</ul>
+</nav>
+<main>
+<p> Want a job at JavaJam? Fill out the application to get started!</p>
+<p> Required fields marked with "*"</p>
+<form method="post" action="http://webdevbasics.net/scripts/javajam.php"> 
+<label for="myName">*Name:</label>
+<input type="text" name="myName" id="myName" required="required">
+<label for="myEmail">*Email:</label>
+<input type="email" name="myEmail" id="myEmail" required="required">
+<label for="myExperience">*Experience:</label>
+<textarea name="myExperince" id="myExperience" rows="2" cols="20" required="required"></textarea>
+<input id="mySubmit" type="submit" value="Submit">
+</form>  
+</main>
+<footer>
+	Copyright &copy; 2014 Gerardo Mangila<br>
+	<a href="http://www.Gerardo@mangila.com">Gerardo@mangila.com 
+	</a>
+</footer>
+</div>
+</body>
+</html>
